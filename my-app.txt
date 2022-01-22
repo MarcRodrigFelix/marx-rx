@@ -1,0 +1,36 @@
+- User Login:
+  - first/last name combined
+  - password
+    - User Data:
+      - Full name
+      - Licence info
+      - Job Title
+
+ --------------------------------
+
+- Patient:
+  - First/Last name
+  - DoB
+  - Phone
+  - Address
+  - Allergies
+  - Documents
+  - Rx Scripts:
+    - Rx number / Tx number
+    - Qty
+    - Sig
+    - Date
+    - Drug:
+       - Name
+       - Strength
+       - NDC
+       - Cost
+       - Lot
+       - Expiration
+       - Type/(OTC, Legen, C4.. etc)
+    - Dr/Prescriber:
+      - First/Last name
+      - Address
+      - Phone
+      - DEA
+      - NPI
