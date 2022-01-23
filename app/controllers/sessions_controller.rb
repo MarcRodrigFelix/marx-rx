@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
 
-  def create
+  def login
 byebug
     user = User.find_by(username: params[:username]).try(:authenticate, params[:password])
 
